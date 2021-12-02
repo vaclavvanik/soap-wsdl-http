@@ -1,6 +1,6 @@
 {
   "name": "vaclavvanik/soap-wsdl-http",
-  "description": "Load DOM document safety",
+  "description": "An easy way to handle WSDL from URL",
   "license": "MIT",
   "type": "library",
   "homepage": "https://github.com/vaclavvanik/soap-wsdl-http",
