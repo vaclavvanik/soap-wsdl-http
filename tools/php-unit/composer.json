@@ -1,0 +1,8 @@
+{
+  "require": {
+    "php": "^7.3 || ^8.0",
+    "mikey179/vfsstream": "^1.6.8",
+    "phpspec/prophecy-phpunit": "^2.0.1",
+    "phpunit/phpunit": "^9.5"
+  }
+}

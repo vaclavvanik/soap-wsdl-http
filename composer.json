@@ -1,0 +1,46 @@
+{
+  "name": "vaclavvanik/soap-wsdl-http",
+  "description": "Load DOM document safety",
+  "license": "MIT",
+  "type": "library",
+  "homepage": "https://github.com/vaclavvanik/soap-wsdl-http",
+  "keywords": [
+    "soap",
+    "wsdl",
+    "http",
+    "psr-18"
+  ],
+  "authors": [
+    {
+      "name": "Václav Vaník",
+      "email": "vaclav.vanik@gmail.com"
+    }
+  ],
+  "config": {
+    "sort-packages": true
+  },
+  "require": {
+    "php": "^7.3 || ^8.0",
+    "psr/http-client": "^1.0",
+    "psr/http-factory": "^1.0",
+    "vaclavvanik/soap-wsdl": "^0.1.0"
+  },
+  "require-dev": {
+
+  },
+  "autoload": {
+    "psr-4": {
+      "VaclavVanik\\Soap\\Wsdl\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "VaclavVanikTest\\Soap\\Wsdl\\": "test/unit"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}
