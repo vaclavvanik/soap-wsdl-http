@@ -33,6 +33,10 @@ final class HttpClientProvider implements WsdlResourceProvider
         $this->uri = $uri;
     }
 
+    /**
+     * @throws Exception\HttpConnection
+     * @throws Exception\HttpResponse
+     */
     public function provide(): string
     {
         try {
